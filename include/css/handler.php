@@ -1,8 +1,10 @@
 <?php
 
-/* 
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+$dir = new DirectoryIterator(dirname(__FILE__));
+foreach ($dir as $fileinfo) {
+    if ($fileinfo->getExtension() == 'css') {
+        echo '<link rel="stylesheet" href="/include/css/'.$fileinfo->getFilename().'">';
+        echo "\n";
+    }
+}
 
