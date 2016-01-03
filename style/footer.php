@@ -1,5 +1,6 @@
 <?php
+
 echo "<div id='footer'>";
-echo "</div>";
+echo "</div></div>";
 echo "</body>";
 echo "</html>";
