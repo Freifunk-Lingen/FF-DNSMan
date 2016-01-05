@@ -33,7 +33,7 @@ function getView($View,$Category,$Data) {
                 default:
                     echo '<small>/ Uebersicht</small></h3></div>';
                     getNav($View, $Category);
-                    
+                    getZoneList();
                     break;
             }
             

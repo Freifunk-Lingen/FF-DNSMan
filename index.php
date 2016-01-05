@@ -11,7 +11,7 @@ function IMPORT($File) {
     require_once $SRVROOT.$File;
 }
 
-IMPORT('include/config.php');
+IMPORT('config.php');
 IMPORT('include/classes/class.php');
 IMPORT('style/header.php');
 IMPORT('style/content.php');
